@@ -1,0 +1,32 @@
+.darkbg {
+    background-color: #02353C;
+    padding: 20px 80px 20px 80px;
+}
+
+.lightbg {
+    background-color: #C1F6ED;
+    padding: 20px 20px 20px 20px;
+}
+
+.lightbg2 {
+    background-color: #C1F6ED;
+}
+
+.greenbg {
+    height: 4px;
+    background-color: #448342;
+}
+
+.darkbg2 {
+    background-color: #02353C;
+    height: 4px;
+}
+
+.spacer {
+    height: 30px;
+}
+
+.colspacer {
+    width: 0px;
+    background-color: #02353C;
+}

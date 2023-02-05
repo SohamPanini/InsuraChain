@@ -1,0 +1,16 @@
+.exchange__button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #2ecc71;
+    background-color: #2ecc71;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+.exchange__button:hover {
+    background-color: #27ae60;
+  }
+

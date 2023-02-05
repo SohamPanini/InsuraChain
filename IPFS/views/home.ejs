@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPFS</title>
+    <link href="/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <center>
+    <div>
+    <h1 class = "title">Upload File to IPFS</h1>
+</div>
+    
+    <form class = "form" action="/upload" method="POST" enctype="multipart/form-data">
+        <div>
+    <table>
+        
+    <tr>
+        <td><label class="subtitle">Filename</label></td>
+        <td><input class="input" type="text" name="fileName"></td>
+    </tr>
+
+<div class="custom">  
+        <!-- <br><br> -->
+    <tr>
+        <td><label class="subtitle">Disease</label></td>
+        <td><input class="input" type="text" name="diseaseName"></td>
+    </tr> 
+</div>    
+        <!-- <br><br> -->
+    <tr>
+        <td><label class="subtitle">Wallet Address</label></td>
+        <td><input class="input" type="text" name="walletAddress"> </td>   
+    </tr>    
+        <!-- <br><br> -->
+    <tr>
+        <td><label class="subtitle">Upload File</label></td>
+        <td><input  type="file" name="file"></td>
+    </tr>
+        <!-- <br><br> -->
+    </table><table></table>
+        <input type="submit" class="submit" value="Submit">
+    
+    </div>
+    </form>
+</center>
+</body>
+</html>

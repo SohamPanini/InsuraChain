@@ -1,0 +1,67 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_testHandler",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_key",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_disease",
+				"type": "string"
+			}
+		],
+		"name": "addToAddressToDisease",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_key",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_prescriptionHash",
+				"type": "string"
+			}
+		],
+		"name": "addToMedHistory",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_key",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_prescriptionName",
+				"type": "string"
+			}
+		],
+		"name": "addToPresName",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
